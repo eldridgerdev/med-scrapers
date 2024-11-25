@@ -7,6 +7,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strconv"
+	"strings"
 )
 
 type Response struct {
@@ -28,8 +30,23 @@ type Course struct {
 	Url, Image, Title, Presenters string
 }
 
-func ScrapeMedbridge() {
-	resp, err := http.Get("https://www.medbridge.com/api/v3/courses/filter?&accreditation_state=1&accreditation_discipline=1&sort_by=approved&discipline_id=1")
+type MedBridgeOpts struct {
+	Limit int
+}
+
+func ScrapeMedbridgeDef() {
+	ScrapeMedbridge(MedBridgeOpts{Limit: 3})
+}
+
+func ScrapeMedbridge(opts MedBridgeOpts) {
+	var urlBuilder strings.Builder
+
+	urlBuilder.WriteString("https://www.medbridge.com/api/v3/courses/filter?limit=")
+	urlBuilder.WriteString(strconv.FormatInt(int64(opts.Limit), 10))
+	urlBuilder.WriteString("&accreditation_state=1&accreditation_discipline=1&sort_by=approved&discipline_id=1")
+	fmt.Println(strconv.FormatInt(int64(opts.Limit), 10))
+
+	resp, err := http.Get(urlBuilder.String())
 	if err != nil {
 		log.Fatalln("Error retrieving MedBridge courses")
 	}
@@ -54,5 +71,5 @@ func ScrapeMedbridge() {
 }
 
 func main() {
-	ScrapeMedbridge()
+	ScrapeMedbridgeDef()
 }

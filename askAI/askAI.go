@@ -1,4 +1,4 @@
-package main
+package askai
 
 import (
 	"bytes"
@@ -21,6 +21,9 @@ type (
 		Email string `json:"email"`
 	}
 	GroqResponse struct {
+		Error *struct {
+			Message string `json:"message"`
+		} `json:"error"`
 		Choices []struct {
 			Index   int `json:"index"`
 			Message struct {
@@ -55,15 +58,8 @@ type AICallProps struct {
 	Data   *any
 }
 
-func main() {
-	p := AICallProps{
-		Prompt: "Give me an example of user data in JSON format without newlines",
-	}
-	aiCall(p)
-}
-
-func aiCall(props AICallProps) FinalResult {
-	viper.SetConfigFile("../.env")
+func AiCall(props AICallProps) FinalResult {
+	viper.SetConfigFile("./.env")
 	viper.ReadInConfig()
 	client := &http.Client{}
 	groqMessages := []GroqRequestMessage{
@@ -110,16 +106,26 @@ func aiCall(props AICallProps) FinalResult {
 		log.Fatal(err)
 	}
 
+	fmt.Println("------------------RES BODY:")
 	fmt.Println(string(resBody))
+	fmt.Println("---------------------------")
 	var b GroqResponse
 	jsonerr := json.Unmarshal(resBody, &b)
 	if jsonerr != nil {
 		log.Fatal(jsonerr)
 	}
+	if b.Error != nil {
+		log.Fatal(b.Error.Message)
+	}
+	fmt.Println("--------RES BODY UNMARSHAL:")
+	fmt.Println(b)
+	fmt.Println("---------------------------")
 
 	var finalRes FinalResult
 	finalerr := json.Unmarshal([]byte(b.Choices[0].Message.Content), &finalRes)
 	if finalerr != nil {
+		fmt.Println("ERROR ERROR ERROR")
+		fmt.Println(finalRes)
 		log.Fatal(err)
 	}
 	// pretty, err := json.MarshalIndent(b.Choices[0].Message.Content, "", "  ")
@@ -129,4 +135,11 @@ func aiCall(props AICallProps) FinalResult {
 
 	fmt.Println(finalRes)
 	return finalRes
+}
+
+func main() {
+	p := AICallProps{
+		Prompt: "Give me an example of user data in JSON format without newlines",
+	}
+	AiCall(p)
 }
