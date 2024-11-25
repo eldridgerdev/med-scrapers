@@ -51,10 +51,18 @@ type GroqBody struct {
 }
 
 func main() {
-	aiCall()
+	p := AICallProps{
+		Prompt: "Give me an example of user data in JSON format without newlines",
+	}
+	aiCall(p)
 }
 
-func aiCall() FinalResult {
+type AICallProps struct {
+	Prompt string
+	Data   *any
+}
+
+func aiCall(props AICallProps) FinalResult {
 	viper.SetConfigFile("../.env")
 	viper.ReadInConfig()
 	client := &http.Client{}
@@ -64,7 +72,7 @@ func aiCall() FinalResult {
 			Content: "You are a helpful assistant",
 		}, {
 			Role:    "user",
-			Content: "Give me an example of user data in JSON format without newlines",
+			Content: props.Prompt,
 		},
 	}
 
