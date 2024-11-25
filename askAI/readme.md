@@ -4,5 +4,6 @@ Quick protype to get an AI response
 
 ## TODO
 
-- [ ] Custom Prompt
-- [ ] Specific Data-Type return
+- [x] Custom Prompt
+- [x] Specific Data-Type return
+- [ ] Make a generic version to easilly customize data format for other course providers
