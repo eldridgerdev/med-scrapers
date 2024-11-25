@@ -50,16 +50,16 @@ type GroqBody struct {
 	Stop           any                  `json:"stop"`
 }
 
+type AICallProps struct {
+	Prompt string
+	Data   *any
+}
+
 func main() {
 	p := AICallProps{
 		Prompt: "Give me an example of user data in JSON format without newlines",
 	}
 	aiCall(p)
-}
-
-type AICallProps struct {
-	Prompt string
-	Data   *any
 }
 
 func aiCall(props AICallProps) FinalResult {
