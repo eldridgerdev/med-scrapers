@@ -1,12 +1,60 @@
 {
   "content": [
     {
+      "id": 4637,
       "title": "Enhancing Rehabilitation: MS and Stroke Intervention Solutions",
       "brief_description": "\u003cb\u003eVideo Runtime: 58 Minutes; Learning Assessment Time: 31 Minutes\u003c/b\u003e\u003cbr\u003e\u003cbr\u003e\nThis dynamic course is tailored for physical and occupational therapists seeking to enhance their clinical expertise in neurological rehabilitation through a comprehensive examination of two prevalent conditions: multiple sclerosis (MS) and stroke. With a focus on integrating evidence-based interventions into clinical practice, participants will gain valuable insights into the progression of treating patients from acute care to the outpatient setting while emphasizing the incorporation of intensity and motor learning strategies rooted in the OPTIMAL theory.\n\u003cbr\u003e\u003cbr\u003e\nThroughout the course, participants will learn to prioritize interventions that can be readily implemented in their clinical settings starting from the following week. A central focus of the course will be on leveraging intensity and motor learning principles based on the OPTIMAL theory to optimize rehabilitation outcomes for patients with MS and stroke.\n\u003cbr\u003e\u003cbr\u003e\nThis course promises to empower therapists to deliver impactful rehabilitation interventions that optimize functional outcomes and enhance the quality of life for individuals living with MS and stroke.\n\n\u003cbr\u003e\u003cbr\u003e\n\u003cb\u003eLearning Objectives\u003c/b\u003e\n\u003cul\u003e\n\u003cli\u003eDiscriminate MS and stroke, focusing on their neurological deficits and functional impairments\n\u003c/li\u003e\n\u003cli\u003eAnalyze both intensity and the OPTIMAL theory’s role in rehabilitation for MS and stroke patients\n\u003c/li\u003e\n\u003cli\u003ePrioritize acute care/inpatient interventions for immediate integration\n\u003c/li\u003e\n\u003cli\u003eApply environmental adjustments to optimize intensity for MS and CVA patients and ensure increased participation in daily activities\n\u003c/li\u003e\n\u003cli\u003eSelect outpatient interventions for immediate integration\n\u003c/li\u003e\n\u003cli\u003eImplement environmental adjustments for intensity optimization in outpatient settings to ensure increased participation in daily activities\n\u003c/li\u003e\n\u003c/ul\u003e",
       "hero_image": "https://medbridgeuploads.s3.amazonaws.com/Course/4637/atitle_hero.jpg",
       "instructors": [
         {
           "name_without_ending": "J.J. Mowder-Tinney"
+        }
+      ]
+    },
+    {
+      "id": 4638,
+      "title": "Potential Unleashed: iSCI and TBI Rehab",
+      "brief_description": "\u003cb\u003eVideo Runtime: 52 Minutes; Learning Assessment Time: 31 Minutes\u003c/b\u003e\u003cbr\u003e\u003cbr\u003e\nTailored for therapists seeking to advance their expertise in neurological rehabilitation, this dynamic course offers a comprehensive exploration of two prevalent conditions: incomplete spinal cord injury (iSCI) and traumatic brain injury (TBI). Participants will gain insights into treating patients in acute care and outpatient settings, emphasizing the integration of evidence-based interventions and focusing on incorporating intensity and motor learning strategies grounded in the OPTIMAL theory.\u003cbr\u003e\u003cbr\u003e\nThroughout the course, therapists will learn to prioritize interventions for immediate implementation, with a central focus on leveraging these principles to optimize rehabilitation outcomes and enhance the quality of life for individuals affected by iSCI and TBI.\n\u003cbr\u003e\u003cbr\u003e\n\u003cb\u003eLearning Objectives\u003c/b\u003e\n\u003cul\u003e\n\u003cli\u003eExamine iSCI and TBI pathophysiology and clinical signs to inform targeted, intensity-focused rehabilitation strategies\n\u003c/li\u003e\n\u003cli\u003eAnalyze the OPTIMAL theory and its relevance in neurological rehabilitation for optimizing outcomes through intensity and motor learning principles\n\u003c/li\u003e\n\u003cli\u003ePrioritize interventions for immediate implementation in acute care and inpatient rehabilitation for iSCI and TBI\n\u003c/li\u003e\n\u003cli\u003eExamine environmental adjustments in acute care and inpatient rehabilitation to optimize intensity for iSCI and TBI patients’ specific needs and priorities to ensure increased participation in daily occupations\n\u003c/li\u003e\n\u003cli\u003eIntegrate interventions into outpatient rehabilitation, emphasizing prioritization and immediate application\n\u003c/li\u003e\n\u003cli\u003eAnalyze environmental modifications to enhance outpatient rehabilitation intensity, tailored to the unique needs of individuals with iSCI and TBI to ensure increased participation in daily occupations\n\u003c/li\u003e\n\u003c/ul\u003e",
+      "hero_image": "https://medbridgeuploads.s3.amazonaws.com/Course/4638/btitle_hero.jpg",
+      "instructors": [
+        {
+          "name_without_ending": "J.J. Mowder-Tinney"
+        }
+      ]
+    },
+    {
+      "id": 4641,
+      "title": "The Science of Intensity in Dual-Task: Dosage, Novelty, and Modality",
+      "brief_description": "\u003cb\u003eVideo Runtime: 71 Minutes; Learning Assessment Time: 34 Minutes\u003c/b\u003e\u003cbr\u003e\u003cbr\u003e\nWhy are some movements “automatic,” processed without direct and consistent conscious control, or even resistant to environmental distractions? This advanced course provides an applications-based translation of the evidence in dual-tasking for professionals tasked to create or re-create automaticity. Attendees will be well-positioned to help clients manage fall risk and improve ADL independence, conversation, MRADLs, and executive functions. \n\u003cbr\u003e\u003cbr\u003e\n\u003cb\u003eLearning Objectives\u003c/b\u003e\n\u003cul\u003e\n\u003cli\u003eDesign treatment plans that include each of the four modalities of distraction in cognitive-motor interference\n\u003c/li\u003e\n\u003cli\u003ePrioritize the mode of distraction that each person will benefit from and engage with optimally in order to increase participation in daily activities\n\u003c/li\u003e\n\u003cli\u003eFormulate and progress treatment plans that include dual-task intervention with consideration for person, diagnosis, and response to care\n\u003c/li\u003e\n\u003cli\u003eDevelop person-specific dual-task tests to objectify function in mobility and ADLs\n\u003c/li\u003e\n\n\u003c/ul\u003e",
+      "hero_image": "https://medbridgeuploads.s3.amazonaws.com/Course/4641/1283a_title2_hero.jpg",
+      "instructors": [
+        {
+          "name_without_ending": "Mike Studer"
+        }
+      ]
+    },
+    {
+      "id": 4642,
+      "title": "The Science of Intensity Across the Phenotypes of Parkinson’s Disease",
+      "brief_description": "\u003cb\u003eVideo Runtime: 70 Minutes; Learning Assessment Time: 34 Minutes\u003c/b\u003e\u003cbr\u003e\u003cbr\u003e\nParkinson’s diseases are NOT all the same. This course will clarify the clinical subtypes (phenotypes) of PD and define the opportunities for intensity within the rehabilitative and disease management (wellness) of each, from tremor-dominant Parkinson’s disease (TD) through postural impairment gait disorder (PIGD) and including considerations of both nonmotor impairments and genotypes of young-onset PD (YOPD). Learners will be exposed to an action-packed and application-filled course that readies them for person-specific clinical success.\u003cbr\u003e\u003cbr\u003e\n\u003cb\u003eLearning Objectives\u003c/b\u003e\n\u003cul\u003e\n\u003cli\u003eDevelop examinations that are person and phenotype specific for PwPD in an effort to objectify function in mobility and in daily activities\n\u003c/li\u003e\n\u003cli\u003ePrioritize interventions that are person and phenotype specific for PwPD in an effort to ensure increased functional independence in mobility and participation in daily activities\n\u003c/li\u003e\n\u003cli\u003eCreate educational tools, including home programs, that are person and phenotype specific for PwPD\n\u003c/li\u003e\n\u003cli\u003eFormulate care plans around the nonmotor presentations of PwPD\n\u003c/li\u003e\n\n\u003c/ul\u003e",
+      "hero_image": "https://medbridgeuploads.s3.amazonaws.com/Course/4642/title_hero.jpg",
+      "instructors": [
+        {
+          "name_without_ending": "Mike Studer"
+        }
+      ]
+    },
+    {
+      "id": 4675,
+      "title": "Home Health Excellence: Introduction to the Environment",
+      "brief_description": "\u003cb\u003eVideo Runtime: 19 Minutes; Learning Assessment Time: 43 Minutes\u003c/b\u003e\u003cbr\u003e\u003cbr\u003e\n\nIn the rapidly evolving landscape of healthcare, skilled and compassionate home health clinicians are needed to impact healthcare in the home setting. This course is designed to take home health clinicians—nurses, aides, therapists, social workers, and home health leaders—on a journey toward excellence in care delivery. This course addresses why home healthcare is important in the continuum of care and discusses the core principles of tailoring patient-centered care to meet the unique needs and preferences of each individual, the power of interdisciplinary collaboration, and setting the stage for individualized patient care using the 4Ms framework. This course will equip the clinician with tools and insights that will ignite a movement toward compassionate, personalized care designed to improve patient outcomes, patient satisfaction, and clinician fulfillment.\n\u003cbr\u003e\u003cbr\u003e\n\u003cb\u003eLearning Objectives\u003c/b\u003e\n\u003cul\u003e\n\u003cli\u003eReview the importance and scope of home healthcare and  its role within the broader healthcare continuum \u003c/li\u003e\n\u003cli\u003eIdentify four key principles of home healthcare \u003c/li\u003e\n\u003cli\u003eCompare various roles of clinicians in home healthcare and their contributions to patient care \u003c/li\u003e\n\u003cli\u003eLearn from committed home care clinicians why they chose home health and the value of healthcare in the home\u003c/li\u003e",
+      "hero_image": "https://medbridgeuploads.s3.amazonaws.com/Course/4675/c1274a_tate_venable_ch200_02_42_07still001_hero.jpg",
+      "instructors": [
+        {
+          "name_without_ending": "Kim Tate"
+        },
+        {
+          "name_without_ending": "Natalie Venable"
         }
       ]
     }

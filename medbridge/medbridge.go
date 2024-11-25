@@ -16,6 +16,7 @@ type Response struct {
 }
 
 type Content struct {
+	Id                int           `json:"id"`
 	Title             string        `json:"title"`
 	Brief_description string        `json:"brief_description"`
 	Hero_image        string        `json:"hero_image"`
@@ -44,7 +45,6 @@ func ScrapeMedbridge(opts MedBridgeOpts) {
 	urlBuilder.WriteString("https://www.medbridge.com/api/v3/courses/filter?limit=")
 	urlBuilder.WriteString(strconv.FormatInt(int64(opts.Limit), 10))
 	urlBuilder.WriteString("&accreditation_state=1&accreditation_discipline=1&sort_by=approved&discipline_id=1")
-	fmt.Println(strconv.FormatInt(int64(opts.Limit), 10))
 
 	resp, err := http.Get(urlBuilder.String())
 	if err != nil {
@@ -56,7 +56,6 @@ func ScrapeMedbridge(opts MedBridgeOpts) {
 		log.Fatalln("Error parsing MedBridge courses")
 	}
 	var response Response
-
 	jsonErr := json.Unmarshal(body, &response)
 	if jsonErr != nil {
 		log.Fatalf("Unable to marshal jsone due to %s", jsonErr)

@@ -17,8 +17,10 @@ const (
 
 type (
 	FinalResult struct {
-		Name  string `json:"name"`
-		Email string `json:"email"`
+		Data []struct {
+			Id         string   `json:"id"`
+			Categories []string `json:"categories"`
+		} `json:"data"`
 	}
 	GroqResponse struct {
 		Error *struct {
@@ -106,9 +108,6 @@ func AiCall(props AICallProps) FinalResult {
 		log.Fatal(err)
 	}
 
-	fmt.Println("------------------RES BODY:")
-	fmt.Println(string(resBody))
-	fmt.Println("---------------------------")
 	var b GroqResponse
 	jsonerr := json.Unmarshal(resBody, &b)
 	if jsonerr != nil {
