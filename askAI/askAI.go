@@ -18,7 +18,7 @@ const (
 type (
 	FinalResult struct {
 		Data []struct {
-			Id         string   `json:"id"`
+			Id         int      `json:"id"`
 			Categories []string `json:"categories"`
 		} `json:"data"`
 	}
@@ -27,13 +27,13 @@ type (
 			Message string `json:"message"`
 		} `json:"error"`
 		Choices []struct {
-			Index   int `json:"index"`
+			Id      string `json:"id"`
 			Message struct {
 				Role    string `json:"role"`
 				Content string `json:"content"`
 			} `json:"message"`
+			Index int `json:"index"`
 		} `json:"choices"`
-		Id string `json:"id"`
 	}
 	GroqResponseFormat struct {
 		Type string `json:"type"`
@@ -45,19 +45,19 @@ type (
 )
 
 type GroqBody struct {
+	Model          string               `json:"model"`
+	Stop           any                  `json:"stop"`
 	ResponseFormat GroqResponseFormat   `json:"response_format"`
 	Messages       []GroqRequestMessage `json:"messages"`
-	Model          string               `json:"model"`
+	Stream         bool                 `json:"stream"`
 	Temperature    int                  `json:"temperature"`
 	MaxTokens      int                  `json:"max_tokens"`
 	TopP           int                  `json:"top_p"`
-	Stream         bool                 `json:"stream"`
-	Stop           any                  `json:"stop"`
 }
 
 type AICallProps struct {
-	Prompt string
 	Data   *any
+	Prompt string
 }
 
 func AiCall(props AICallProps) FinalResult {
@@ -116,20 +116,13 @@ func AiCall(props AICallProps) FinalResult {
 	if b.Error != nil {
 		log.Fatal(b.Error.Message)
 	}
-	fmt.Println("--------RES BODY UNMARSHAL:")
-	fmt.Println(b)
-	fmt.Println("---------------------------")
 
 	var finalRes FinalResult
 	finalerr := json.Unmarshal([]byte(b.Choices[0].Message.Content), &finalRes)
 	if finalerr != nil {
 		fmt.Println("ERROR ERROR ERROR")
 		fmt.Println(finalRes)
-		log.Fatal(err)
-	}
-	// pretty, err := json.MarshalIndent(b.Choices[0].Message.Content, "", "  ")
-	if err != nil {
-		log.Fatal(err)
+		log.Fatal(finalerr)
 	}
 
 	fmt.Println(finalRes)

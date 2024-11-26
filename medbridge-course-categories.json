@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "id": 4637,
+      "categories": [
+        "Multiple Sclerosis (MS)",
+        "Stroke",
+        "Physical Therapy",
+        "Rehabilitation",
+        "Neurological Rehabilitation",
+        "Intensity-based Rehabilitation",
+        "Motor Learning"
+      ]
+    },
+    {
+      "id": 4638,
+      "categories": [
+        "Incomplete Spinal Cord Injury (iSCI)",
+        "Traumatic Brain Injury (TBI)",
+        "Physical Therapy",
+        "Rehabilitation",
+        "Neurological Rehabilitation",
+        "Intensity-based Rehabilitation",
+        "Motor Learning"
+      ]
+    },
+    {
+      "id": 4641,
+      "categories": [
+        "Dual-tasking",
+        "Physical Therapy",
+        "Rehabilitation",
+        "Cognitive-motor Interference",
+        "Motor Learning",
+        "Automaticity"
+      ]
+    },
+    {
+      "id": 4642,
+      "categories": [
+        "Parkinson's Disease",
+        "Physical Therapy",
+        "Rehabilitation",
+        "Neurological Rehabilitation",
+        "Intensity-based Rehabilitation",
+        "Motor Learning",
+        "Phenotypes"
+      ]
+    },
+    {
+      "id": 4675,
+      "categories": [
+        "Home Health",
+        "Physical Therapy",
+        "Rehabilitation",
+        "Patient-centered Care",
+        "Interdisciplinary Collaboration",
+        "4Ms Framework"
+      ]
+    }
+  ]
+}
