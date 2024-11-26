@@ -17,7 +17,7 @@ func main() {
 	viper.ReadInConfig()
 	os.Remove("./medbridge-courses.json")
 	os.Remove("./medbridge-course-categories.json")
-	medbridge.ScrapeMedbridge(medbridge.MedBridgeOpts{Limit: 5})
+	medbridge.ScrapeMedbridge(medbridge.MedBridgeOpts{Limit: 15})
 	medbridgeData, err := os.ReadFile("./medbridge-courses.json")
 	if err != nil {
 		log.Fatal(err)

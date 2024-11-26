@@ -18,8 +18,8 @@ const (
 type (
 	FinalResult struct {
 		Data []struct {
-			Id         int      `json:"id"`
 			Categories []string `json:"categories"`
+			Id         int      `json:"id"`
 		} `json:"data"`
 	}
 	GroqResponse struct {
@@ -120,18 +120,9 @@ func AiCall(props AICallProps) FinalResult {
 	var finalRes FinalResult
 	finalerr := json.Unmarshal([]byte(b.Choices[0].Message.Content), &finalRes)
 	if finalerr != nil {
-		fmt.Println("ERROR ERROR ERROR")
-		fmt.Println(finalRes)
 		log.Fatal(finalerr)
 	}
 
 	fmt.Println(finalRes)
 	return finalRes
-}
-
-func main() {
-	p := AICallProps{
-		Prompt: "Give me an example of user data in JSON format without newlines",
-	}
-	AiCall(p)
 }

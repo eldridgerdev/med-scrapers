@@ -4,6 +4,7 @@
 
 - [ ] Retry if AI JSON is bad
 - [ ] Check that category IDS correctly match the courses
+- [ ] Organize and clean
 
 ## Setup
 

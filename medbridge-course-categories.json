@@ -3,59 +3,125 @@
     {
       "id": 4637,
       "categories": [
-        "Multiple Sclerosis (MS)",
-        "Stroke",
-        "Physical Therapy",
-        "Rehabilitation",
-        "Neurological Rehabilitation",
-        "Intensity-based Rehabilitation",
-        "Motor Learning"
+        "MS and stroke rehabilitation",
+        "Intensity and motor learning strategies",
+        "Neurological rehabilitation",
+        "Physical therapy"
       ]
     },
     {
       "id": 4638,
       "categories": [
-        "Incomplete Spinal Cord Injury (iSCI)",
-        "Traumatic Brain Injury (TBI)",
-        "Physical Therapy",
-        "Rehabilitation",
-        "Neurological Rehabilitation",
-        "Intensity-based Rehabilitation",
-        "Motor Learning"
+        "iSCI and TBI rehabilitation",
+        "Intensity and motor learning strategies",
+        "Neurological rehabilitation",
+        "Physical therapy"
       ]
     },
     {
       "id": 4641,
       "categories": [
-        "Dual-tasking",
-        "Physical Therapy",
-        "Rehabilitation",
-        "Cognitive-motor Interference",
-        "Motor Learning",
-        "Automaticity"
+        "Dual-task rehabilitation",
+        "Intensity and motor learning strategies",
+        "Neurological rehabilitation",
+        "Physical therapy"
       ]
     },
     {
       "id": 4642,
       "categories": [
-        "Parkinson's Disease",
-        "Physical Therapy",
-        "Rehabilitation",
-        "Neurological Rehabilitation",
-        "Intensity-based Rehabilitation",
-        "Motor Learning",
-        "Phenotypes"
+        "Parkinson's disease rehabilitation",
+        "Intensity and motor learning strategies",
+        "Neurological rehabilitation",
+        "Physical therapy"
       ]
     },
     {
       "id": 4675,
       "categories": [
-        "Home Health",
-        "Physical Therapy",
-        "Rehabilitation",
-        "Patient-centered Care",
-        "Interdisciplinary Collaboration",
-        "4Ms Framework"
+        "Home healthcare",
+        "Patient-centered care",
+        "Comprehensive assessment"
+      ]
+    },
+    {
+      "id": 4677,
+      "categories": [
+        "Home healthcare",
+        "Comprehensive assessment",
+        "Intensity and motor learning strategies"
+      ]
+    },
+    {
+      "id": 4678,
+      "categories": [
+        "Home healthcare",
+        "Plan of care development",
+        "Interdisciplinary collaboration"
+      ]
+    },
+    {
+      "id": 4688,
+      "categories": [
+        "Home healthcare",
+        "Care coordination",
+        "Interdisciplinary collaboration"
+      ]
+    },
+    {
+      "id": 4689,
+      "categories": [
+        "Home healthcare",
+        "Home visits",
+        "Comprehensive assessment"
+      ]
+    },
+    {
+      "id": 4690,
+      "categories": [
+        "Home healthcare",
+        "Communication and patient engagement",
+        "Patient education"
+      ]
+    },
+    {
+      "id": 4691,
+      "categories": [
+        "Home healthcare",
+        "Quality improvement",
+        "Interdisciplinary collaboration"
+      ]
+    },
+    {
+      "id": 4692,
+      "categories": [
+        "Home healthcare",
+        "Professional development",
+        "Self-care"
+      ]
+    },
+    {
+      "id": 4693,
+      "categories": [
+        "Home healthcare",
+        "Case management",
+        "Interdisciplinary collaboration"
+      ]
+    },
+    {
+      "id": 4695,
+      "categories": [
+        "Home healthcare",
+        "Resource management",
+        "Time management"
+      ]
+    },
+    {
+      "id": 4696,
+      "categories": [
+        "Home healthcare",
+        "Core principles",
+        "Best practices"
       ]
     }
   ]
