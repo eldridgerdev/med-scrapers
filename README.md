@@ -3,6 +3,8 @@
 ## TODO
 
 - [ ] Retry if AI JSON is bad
+- [ ] more course sites
+- [ ] rename scrapemedbridge, it's not actually scraping anymore
 - [ ] Check that category IDS correctly match the courses
 - [ ] Organize and clean
 - [ ] .gitignore json files
